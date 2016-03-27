@@ -1,0 +1,23 @@
+echo "Da un fisier:"
+read x
+
+awk '{  z++;
+	if(length >10 ){
+		print "Linia-",z ,":";
+		for (i=11; i<=NF; i++) 
+			if( i == NF)
+				print i, ";" ;
+
+        		else{
+				printf ( i );
+				printf ( ",");
+			}
+		y++;
+		if(NR == NF)
+			print "Sunt", y, " linii care au peste 10 cuvinte";
+			}
+		
+  		}' $x
+
+echo "In fisierul $x"
+
