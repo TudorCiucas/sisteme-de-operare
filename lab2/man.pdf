@@ -1,0 +1,10 @@
+ls - used for listing a directory's files
+pwd - it prints on the output the current path
+cd - it changes your current directory with another one, . is the current directory and .. is the previous directory
+mkdir - makes a directory
+rmdir - removes a directory
+rm - removes a file
+cp - is used to copy a file from a directory in another one
+mv - it can move a file to another irectory, but it can also rename a file
+cat - it shows the content of a file
+man - it opens the manual for a command, or an editor
