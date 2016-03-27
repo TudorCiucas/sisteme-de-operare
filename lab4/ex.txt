@@ -1,0 +1,17 @@
+echo "Da un sir de caractere:"
+read y
+x=1
+echo "Da fisier :"
+read x
+while [ $x !=  0 ]
+do
+  	sed '1,30 {/3/d;}'   $x
+  	echo "Da fisier :" 
+   	read x
+   	if [ $x == 0 ]
+   	then
+   		echo " S-a inchis programul"
+   	fi
+done
+
+
